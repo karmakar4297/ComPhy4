@@ -14,7 +14,7 @@ def log_likelihood(theta, x, y, yerr):
 
 def log_prior(theta):
     a, b, c = theta
-    if -250<a<250 and -500.0 < b < 500 and 0.0 < b < 1000.0:
+    if -250<a<250 and -500.0 < b < 500 and -500 < c < 500:
         return 0.0
     return -np.inf
 

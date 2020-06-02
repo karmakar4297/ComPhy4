@@ -1,0 +1,3 @@
+
+ Time (in sec.) taken to produce 10 k uniform deviates with linear cong:  0.0009975433349609375
+ Time (in sec.) taken to produce 10 k uniform deviates with np.random.rand:  0.0
